@@ -1,14 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+
+import { MaterialDesignFrameworkModule } from 'angular6-json-schema-form';
+
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule,
+    MaterialDesignFrameworkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
