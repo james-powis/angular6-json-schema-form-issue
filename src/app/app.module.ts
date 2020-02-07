@@ -5,7 +5,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-import { MaterialDesignFrameworkModule } from 'angular6-json-schema-form';
+import { MaterialDesignFrameworkModule } from '@ajsf/material';;
 
 
 @NgModule({
